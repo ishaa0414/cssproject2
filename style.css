@@ -1,0 +1,263 @@
+.header{
+    display:flex;
+    justify-content: left;
+    background-color: white;
+    width:100%;
+    box-shadow:0px 5px 10px 1px rgb(223, 223, 223);
+}
+.task{
+    font-weight:bold;
+    color:black;
+    font-family: sans-serif;
+}
+.list{
+    color:rgb(74, 210, 255);
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(246, 246, 246);
+}
+.addnew{
+    display:flex;
+    justify-content: end;
+    padding-right: 100px;
+    margin-top:50px;
+   
+}
+.plus{
+    border:1px solid rgb(74, 210, 255);
+    background-color:  rgb(40, 191, 242);
+    border-radius:50%;
+    height:20px;
+    width:20px;
+    color:white;
+    text-align:center;
+    margin-right: 10px;
+    font-weight:bold;
+  
+}
+.newtask{
+    font-family: sans-serif;
+    color:rgba(22, 22, 22, 0.675);
+    font-weight:bold;
+    font-size:0.9rem;
+ 
+}
+.boxes{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.row1{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.row2{
+    display:flex;
+    justify-content:start;
+    flex-wrap:wrap;
+}
+.boxf{
+    border:1px solid white;
+    border-radius:5px;
+    background-color:white;
+    width:250px;
+    height:250px;
+    text-align:left;
+    margin-right: 10px;
+    margin-top:10px;
+}
+
+.option1{
+    text-decoration:line-through;
+    color:rgba(128, 128, 128, 0.349);
+    font-family:sans-serif;
+    font-size:0.8rem;
+    padding-left:20px;
+    font-weight:bold;
+}
+hr{
+    opacity:20%;
+}
+p{
+    padding-left:20px;
+    color:rgb(74, 210, 255);
+    font-family:sans-serif;
+    font-weight:bold;
+}
+.option2{
+    font-family:sans-serif;
+    font-size:0.8rem;
+    color:rgba(3, 3, 3, 0.566);
+    padding-left:20px;
+    font-weight:bold;
+}
+.checkbox1{
+    accent-color:rgb(147, 147, 147);
+}
+.boxf:hover{
+    box-shadow:0px 0px 10px rgb(223, 223, 223);
+    transition-duration: 1s;
+    cursor: pointer;
+}   
+
+a{
+    text-decoration: none;
+    color:white;
+}
+.addnew:hover{
+    cursor: pointer;
+}
+
+.flexbox{
+    display:flex;
+    height:900px;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+.addnewtask{
+    border:1px solid white;
+    background-color:white;
+    border-radius:10px;
+    position:absolute;
+    top:30%;
+    left:40%;
+    width:300px;
+    height:200px;
+    box-shadow:0px 0px 30px rgb(50, 50, 50);
+    z-index: 2;
+}
+
+.overlay{
+
+filter: blur(5px);
+} 
+.container{
+    width:100%;
+    z-index: 1;
+}
+
+.blur{
+    filter:blur(5px);
+}
+.addnewtext{
+    color:rgba(0, 0, 0, 0.655);
+}
+.addarea{
+    text-align:center;
+ width:290px;
+ border-color:rgba(174, 172, 172, 0.304);
+ background-color:rgba(128, 128, 128, 0.078);
+ margin-top:10px;
+}
+.addtask{
+    border:1px solid rgba(6, 148, 219, 0.905);
+    background-color:rgba(6, 148, 219, 0.905);
+    color:white;
+    width:100px;
+    margin-left:150px;
+    margin-top:20px;
+  font-size:0.9rem;
+  padding:2px;
+  border-radius:2px;
+}
+.backsymbol{
+    border:1px solid rgba(24, 23, 23, 0.764);
+    background-color:rgba(24, 23, 23, 0.764);
+    color:white;
+    border-radius:50%;
+    width:20px;
+    height:20px;
+    padding-left:1px;
+    margin-top:50px;
+}
+.topline{
+    display:flex;
+    justify-content:center;
+}
+.back{
+    margin-top:50px;
+    margin-right:100px;
+    margin-left:10px;
+    font-family:sans-serif;
+    color:rgba(24, 23, 23, 0.764);
+}
+.trip{
+    display:flex;
+    justify-content: center;
+    margin-top:50px;
+}
+.boxp{
+    border:1px solid white;
+    border-radius:5px;
+    background-color:white;
+    width:400px;
+    height:250px;
+    text-align:left; 
+    margin-right: 10px;
+    margin-top:10px;
+    box-shadow:0px 0px 10px rgb(223, 223, 223);
+}
+.newtext{
+    color:rgba(22, 22, 22, 0.675);
+}
+.new{
+    position:absolute;
+    top:30%;
+    left:50%;
+    border:1px solid white;
+    background-color:white;
+    border-radius:10px;
+    position:absolute;
+    top:30%;
+    left:40%;
+    width:300px;
+    height:200px;
+    box-shadow:0px 0px 30px rgb(50, 50, 50)
+}
+.addtasks{
+    color:rgba(22, 22, 22, 0.675);
+}
+@media (max-width:576px){
+  .addnew{
+    justify-content:center;
+    margin-top:10px;
+  }
+  .addnewtask{
+    left:20%;
+}
+.backsymbol{
+    margin-top:10px;
+}
+.back{
+    margin-top:10px;
+}
+.new{
+    left:15%;
+}
+}
+  @media (max-width:274px){
+    .boxf{
+    border:1px solid white;
+    border-radius:5px;
+    background-color:white;
+    width:150px;
+  }
+  .boxp{
+    width:200px;
+  }
+}
+@media (max-width:400px){
+   .addnewtask{
+    left:5%;
+    }
+    .addnew{
+        padding:0px;
+    }
+    .new{
+        left:5%;
+    }
+}
